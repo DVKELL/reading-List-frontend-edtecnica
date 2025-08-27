@@ -1,41 +1,12 @@
-# 🚀 Proyecto Frontend Didáctico en Equipo
+# React + Vite
 
-Este repositorio contiene el frontend de un proyecto didáctico creado para practicar desarrollo web en equipo. El objetivo es aprender, compartir conocimientos y mejorar nuestras habilidades en tecnologías modernas del frontend.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🎯 Objetivos del Proyecto
+Currently, two official plugins are available:
 
-- Practicar HTML, CSS y JavaScript moderno (ES6+)
-- Aprender a trabajar con frameworks como React o Vue (según elección del equipo)
-- Mejorar el trabajo colaborativo usando Git y GitHub
-- Aplicar buenas prácticas de desarrollo y organización de código
-- Simular un flujo de trabajo profesional en equipo
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🛠️ Tecnologías Utilizadas
+## Expanding the ESLint configuration
 
-- [ ] HTML5
-- [ ] CSS3 / Sass / Tailwind (según preferencia)
-- [ ] JavaScript / TypeScript
-- [ ] React / Vue / Otro framework (a definir)
-- [ ] Vite / Webpack / Otro bundler
-- [ ] Git y GitHub para control de versiones
-
-# 🚀 Proyecto Frontend Didáctico en Equipo
-
-Este repositorio contiene el frontend de un proyecto didáctico creado para practicar desarrollo web en equipo. El objetivo es aprender, compartir conocimientos y mejorar nuestras habilidades en tecnologías modernas del frontend.
-
-## 🎯 Objetivos del Proyecto
-
-- Practicar HTML, CSS y JavaScript moderno (ES6+)
-- Aprender a trabajar con frameworks como React o Vue (según elección del equipo)
-- Mejorar el trabajo colaborativo usando Git y GitHub
-- Aplicar buenas prácticas de desarrollo y organización de código
-- Simular un flujo de trabajo profesional en equipo
-
-## 🛠️ Tecnologías Utilizadas
-
-- [ ] HTML5
-- [ ] CSS3 / Sass / Tailwind (según preferencia)
-- [ ] JavaScript / TypeScript
-- [ ] React / Vue / Otro framework (a definir)
-- [ ] Vite / Webpack / Otro bundler
-- [ ] Git y GitHub para control de versiones
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
