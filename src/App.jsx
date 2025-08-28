@@ -1,14 +1,18 @@
 import { useState } from 'react'
+import ListBooks from './components/List.jsx';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+// import  Form  from './components/Form.jsx';
 import './index.css'
 
 function App() {
-  // const [count, setCount] = useState(0)
-  // const condicional = false
 
   return (
-    <>
-      <h1>Reading List Proyect</h1>
-    </>
+    <BrowserRouter>
+    <Routes>
+      {/* <Route path='/form' element= {<Form/>}/> */}
+      <Route path='/' element= {<ListBooks/>} />
+    </Routes>
+    </BrowserRouter>
   )
 }
 
